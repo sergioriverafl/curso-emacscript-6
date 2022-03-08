@@ -80,6 +80,7 @@ const users = [
     { name: 'Abril', 'Age': 3 },
 ];
 // es5
+
 let listOfNames = users.map(function ( item ){
     console.log(item.name)
 })
